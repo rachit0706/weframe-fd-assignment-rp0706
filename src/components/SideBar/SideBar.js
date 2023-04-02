@@ -6,6 +6,10 @@ import MenuItem from "../MenuItem/MenuItem";
 export default function SideBar(props) {
     return (
         <div className="side-bar">
+            <div className="side-bar-head">
+                <p>Dashboard</p>
+                <img src="images/menu_open.png" alt="Menu Open Button" className="menu-open-button" />
+            </div>
             <div className="user-info">
                 <div className="user-info-left">
                     <img src="images/nancy_martino.png" alt="..." />

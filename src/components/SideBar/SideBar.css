@@ -2,6 +2,23 @@
     padding: 1rem;
 }
 
+.side-bar-head {
+    margin: 1rem 0 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.side-bar-head p {
+    font-weight: 800;
+    font-size: .85rem;
+}
+
+.menu-open-button {
+    height: .8rem;
+    cursor: pointer;
+}
+
 .side-bar li {
     list-style-type: none;
 }

@@ -1,0 +1,16 @@
+.users-panel {
+    height: 120vh;
+    padding: .8srem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+}
+
+@media screen and (max-width: 720px) { 
+    
+    .users-panel {
+        display: none;
+    }
+}

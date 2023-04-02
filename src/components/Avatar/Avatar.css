@@ -1,5 +1,6 @@
 .avatar {
-    overflow: hidden;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 .avatar img {
@@ -8,3 +9,37 @@
     border-radius: 50%;
 }
 
+.dot {
+    position: absolute;
+    height: .55rem;
+    width: .55rem;
+}
+
+.busy-dot, .online-dot {
+    border-radius: 50%;
+    border: 2px solid white;
+    right: 0;
+    bottom: 5px;
+}
+
+.busy-dot {
+    background-color: red;
+}
+
+.online-dot {
+    background-color: green;
+}
+
+.notification-dot {
+    font-size: 6px;
+    font-weight: 800;
+    background-color: red;
+    color: white;
+    padding: 8px;
+    top: -5px;
+    right: -5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

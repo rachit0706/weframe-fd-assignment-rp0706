@@ -20,3 +20,10 @@
 .menu-item-icon {
     height: .8rem;
 }
+
+@media screen and (max-width: 720px) {
+    
+    .menu-item .counter {
+        display: none;
+    }
+}

@@ -6,8 +6,12 @@
   flex: 20%;
 }
 
-.task-display {
-  flex: 80%;
+.main-area {
+  flex: 75%;
+}
+
+.users-panel {
+  flex: 5%;
 }
 
 

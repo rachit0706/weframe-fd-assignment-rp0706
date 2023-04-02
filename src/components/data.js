@@ -445,3 +445,8 @@ export const taskData = {
         },
     ],
 }
+
+export const desktopNavLinks = ["Dashboard", "My Tasks", "My Tasks", "Reporting", "Portfolios", "Goals"];
+
+export const mobileNavLinks = ["Timeline", "Calendar", "Dashboard", "Progress", "Forms", "More"];
+
