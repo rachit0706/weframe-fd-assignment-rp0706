@@ -1,0 +1,28 @@
+.avatar-group {
+    display: flex;
+    gap: .8rem;
+    align-items: flex-end;
+    margin-left: .5rem;
+}
+
+.avatar-group-left {
+    display: flex;
+}
+
+.avatar-group .avatar, .plus-5 {
+    margin-left: -10px;
+}
+
+.avatar-group .avatar > img, .plus-5 {
+    height: 1.2rem;
+}
+
+.plus-5 {
+    /* height: 1.5rem; */
+    padding: 10px 8px;
+    border-radius: 50%;
+    font-size: 10px;
+    display: flex;
+    font-weight: 800;
+    align-items: center;
+}

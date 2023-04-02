@@ -1,0 +1,21 @@
+.task-display {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .task-display {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .task-display {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, auto);
+    }
+}

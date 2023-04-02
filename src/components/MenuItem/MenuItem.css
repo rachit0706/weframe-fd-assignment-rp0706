@@ -1,0 +1,22 @@
+.menu-item {
+    margin-bottom: .65rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-item-left {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.menu-item-left p {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.menu-item-icon {
+    height: .8rem;
+}

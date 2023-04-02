@@ -1,0 +1,41 @@
+.side-bar {
+    padding: 1rem;
+}
+
+.side-bar li {
+    list-style-type: none;
+}
+
+.menu-items-head, .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.menu-items-head {
+    margin: 1.2rem 0 .3rem 0;
+    color: #98A2B2;
+}
+
+.user-details {
+    display: flex;
+    gap: .2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.user-details p:nth-child(2) {
+    color: #98A2B2;
+}
+
+.user-info-left {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.user-info-left img {
+    height: 2rem;
+}

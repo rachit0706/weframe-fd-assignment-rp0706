@@ -1,0 +1,10 @@
+.avatar {
+    overflow: hidden;
+}
+
+.avatar img {
+    height: 1.4rem;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
